@@ -27,7 +27,7 @@ Sigue estos pasos para instalar y configurar el proyecto:
 
 1. Clona el repositorio:
 
-       git clone https://github.com/tu-usuario/mi-proyecto.git
+       git clone https://github.com/amolina429/chatbot.git
        cd mi-proyecto
 
 2. Crea un entorno virtual:
