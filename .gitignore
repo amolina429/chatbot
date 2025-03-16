@@ -1,0 +1,75 @@
+# Ignorar archivos de entornos virtuales de Python
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de Django
+*.log
+*.pot
+*.sqlite3
+*.db
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Ignorar archivos de Node.js y React (frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+dist/
+build/
+.cache/
+.sass-cache/
+
+# Ignorar archivos de Docker
+docker-compose.override.yml
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignorar archivos de SQLite
+*.sqlite3
+
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignorar archivos de testing
+.coverage
+htmlcov/
+.pytest_cache/

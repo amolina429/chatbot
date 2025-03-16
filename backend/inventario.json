@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 1,
+        "nombre": "Laptop HP Pavilion 15",
+        "descripcion": "Laptop con procesador Intel Core i5, 8GB RAM, 256GB SSD",
+        "precio": 799.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Laptops",
+        "marca": "HP",
+        "sku": "HP123456"
+    },
+    {
+        "id": 2,
+        "nombre": "Smartphone Samsung Galaxy S21",
+        "descripcion": "Smartphone con pantalla AMOLED de 6.2 pulgadas, 128GB almacenamiento",
+        "precio": 899.99,
+        "cantidad_en_stock": 15,
+        "categoria": "Smartphones",
+        "marca": "Samsung",
+        "sku": "SAM987654"
+    },
+    {
+        "id": 3,
+        "nombre": "Tablet Apple iPad Air",
+        "descripcion": "Tablet con pantalla Retina de 10.9 pulgadas, 64GB almacenamiento",
+        "precio": 599.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Tablets",
+        "marca": "Apple",
+        "sku": "APP456789"
+    },
+    {
+        "id": 4,
+        "nombre": "Monitor Dell UltraSharp 27",
+        "descripcion": "Monitor 4K UHD de 27 pulgadas con tecnología IPS",
+        "precio": 499.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Monitores",
+        "marca": "Dell",
+        "sku": "DEL321654"
+    },
+    {
+        "id": 5,
+        "nombre": "Teclado Mecánico Corsair K95",
+        "descripcion": "Teclado mecánico para gaming con switches Cherry MX",
+        "precio": 149.99,
+        "cantidad_en_stock": 25,
+        "categoria": "Periféricos",
+        "marca": "Corsair",
+        "sku": "COR789123"
+    },
+    {
+        "id": 6,
+        "nombre": "Mouse Logitech G502",
+        "descripcion": "Mouse para gaming con sensor óptico de alta precisión",
+        "precio": 79.99,
+        "cantidad_en_stock": 30,
+        "categoria": "Periféricos",
+        "marca": "Logitech",
+        "sku": "LOG654321"
+    },
+    {
+        "id": 7,
+        "nombre": "Impresora Epson EcoTank L3150",
+        "descripcion": "Impresora multifuncional con sistema de tanque de tinta",
+        "precio": 299.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Impresoras",
+        "marca": "Epson",
+        "sku": "EPS123789"
+    },
+    {
+        "id": 8,
+        "nombre": "Disco Duro Externo Seagate 1TB",
+        "descripcion": "Disco duro externo portátil de 1TB, USB 3.0",
+        "precio": 59.99,
+        "cantidad_en_stock": 40,
+        "categoria": "Almacenamiento",
+        "marca": "Seagate",
+        "sku": "SEA456123"
+    },
+    {
+        "id": 9,
+        "nombre": "Tarjeta Gráfica NVIDIA GeForce RTX 3080",
+        "descripcion": "Tarjeta gráfica para gaming con 10GB GDDR6X",
+        "precio": 699.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Componentes",
+        "marca": "NVIDIA",
+        "sku": "NVD789456"
+    },
+    {
+        "id": 10,
+        "nombre": "Router ASUS RT-AX88U",
+        "descripcion": "Router Wi-Fi 6 con doble banda y 8 puertos LAN",
+        "precio": 349.99,
+        "cantidad_en_stock": 7,
+        "categoria": "Redes",
+        "marca": "ASUS",
+        "sku": "ASU321987"
+    },
+    {
+        "id": 11,
+        "nombre": "Smartwatch Apple Watch Series 6",
+        "descripcion": "Reloj inteligente con monitor de ritmo cardíaco y GPS",
+        "precio": 399.99,
+        "cantidad_en_stock": 18,
+        "categoria": "Wearables",
+        "marca": "Apple",
+        "sku": "APP654987"
+    },
+    {
+        "id": 12,
+        "nombre": "Auriculares Sony WH-1000XM4",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido",
+        "precio": 349.99,
+        "cantidad_en_stock": 22,
+        "categoria": "Audio",
+        "marca": "Sony",
+        "sku": "SON123654"
+    },
+    {
+        "id": 13,
+        "nombre": "Altavoz Inteligente Amazon Echo Dot",
+        "descripcion": "Altavoz inteligente con asistente virtual Alexa",
+        "precio": 49.99,
+        "cantidad_en_stock": 50,
+        "categoria": "Smart Home",
+        "marca": "Amazon",
+        "sku": "AMA789321"
+    },
+    {
+        "id": 14,
+        "nombre": "Cámara Canon EOS R5",
+        "descripcion": "Cámara mirrorless full-frame con 45MP y grabación 8K",
+        "precio": 3899.99,
+        "cantidad_en_stock": 3,
+        "categoria": "Cámaras",
+        "marca": "Canon",
+        "sku": "CAN456987"
+    },
+    {
+        "id": 15,
+        "nombre": "Drone DJI Mavic Air 2",
+        "descripcion": "Drone con cámara 4K, 34 minutos de vuelo",
+        "precio": 799.99,
+        "cantidad_en_stock": 9,
+        "categoria": "Drones",
+        "marca": "DJI",
+        "sku": "DJI321654"
+    },
+    {
+        "id": 16,
+        "nombre": "Consola PlayStation 5",
+        "descripcion": "Consola de videojuegos de última generación",
+        "precio": 499.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Consolas",
+        "marca": "Sony",
+        "sku": "SON987321"
+    },
+    {
+        "id": 17,
+        "nombre": "Consola Xbox Series X",
+        "descripcion": "Consola de videojuegos con 1TB de almacenamiento",
+        "precio": 499.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Consolas",
+        "marca": "Microsoft",
+        "sku": "MIC654987"
+    },
+    {
+        "id": 18,
+        "nombre": "Tarjeta de Memoria SanDisk 128GB",
+        "descripcion": "Tarjeta de memoria microSDXC con adaptador",
+        "precio": 19.99,
+        "cantidad_en_stock": 100,
+        "categoria": "Almacenamiento",
+        "marca": "SanDisk",
+        "sku": "SAN321987"
+    },
+    {
+        "id": 19,
+        "nombre": "Cargador Inalámbrico Belkin Boost Up",
+        "descripcion": "Cargador inalámbrico de 10W compatible con Qi",
+        "precio": 29.99,
+        "cantidad_en_stock": 35,
+        "categoria": "Accesorios",
+        "marca": "Belkin",
+        "sku": "BEL987654"
+    },
+    {
+        "id": 20,
+        "nombre": "Batería Externa Anker PowerCore 20000mAh",
+        "descripcion": "Batería externa con puertos USB-C y USB-A",
+        "precio": 49.99,
+        "cantidad_en_stock": 40,
+        "categoria": "Accesorios",
+        "marca": "Anker",
+        "sku": "ANK321654"
+    },
+    {
+        "id": 21,
+        "nombre": "Laptop Dell XPS 13",
+        "descripcion": "Laptop ultraportátil con pantalla InfinityEdge, 16GB RAM, 512GB SSD",
+        "precio": 1299.99,
+        "cantidad_en_stock": 7,
+        "categoria": "Laptops",
+        "marca": "Dell",
+        "sku": "DEL789123"
+    },
+    {
+        "id": 22,
+        "nombre": "Smartphone iPhone 13 Pro",
+        "descripcion": "Smartphone con pantalla Super Retina XDR, 128GB almacenamiento",
+        "precio": 999.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Smartphones",
+        "marca": "Apple",
+        "sku": "APP987321"
+    },
+    {
+        "id": 23,
+        "nombre": "Tablet Samsung Galaxy Tab S7",
+        "descripcion": "Tablet con pantalla de 11 pulgadas, 128GB almacenamiento",
+        "precio": 649.99,
+        "cantidad_en_stock": 14,
+        "categoria": "Tablets",
+        "marca": "Samsung",
+        "sku": "SAM321654"
+    },
+    {
+        "id": 24,
+        "nombre": "Monitor LG UltraGear 27GL850",
+        "descripcion": "Monitor gaming QHD de 27 pulgadas con 144Hz",
+        "precio": 449.99,
+        "cantidad_en_stock": 9,
+        "categoria": "Monitores",
+        "marca": "LG",
+        "sku": "LG123987"
+    },
+    {
+        "id": 25,
+        "nombre": "Teclado Razer BlackWidow V3",
+        "descripcion": "Teclado mecánico para gaming con switches Razer Green",
+        "precio": 129.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Periféricos",
+        "marca": "Razer",
+        "sku": "RAZ654321"
+    },
+    {
+        "id": 26,
+        "nombre": "Mouse SteelSeries Rival 600",
+        "descripcion": "Mouse para gaming con sensor TrueMove3+",
+        "precio": 89.99,
+        "cantidad_en_stock": 18,
+        "categoria": "Periféricos",
+        "marca": "SteelSeries",
+        "sku": "STE321987"
+    },
+    {
+        "id": 27,
+        "nombre": "Impresora HP LaserJet Pro MFP",
+        "descripcion": "Impresora láser multifuncional con escáner y copiadora",
+        "precio": 399.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Impresoras",
+        "marca": "HP",
+        "sku": "HP987654"
+    },
+    {
+        "id": 28,
+        "nombre": "Disco Duro Externo WD My Passport 2TB",
+        "descripcion": "Disco duro externo portátil de 2TB, USB 3.0",
+        "precio": 79.99,
+        "cantidad_en_stock": 25,
+        "categoria": "Almacenamiento",
+        "marca": "Western Digital",
+        "sku": "WD321654"
+    },
+    {
+        "id": 29,
+        "nombre": "Tarjeta Gráfica AMD Radeon RX 6800 XT",
+        "descripcion": "Tarjeta gráfica para gaming con 16GB GDDR6",
+        "precio": 649.99,
+        "cantidad_en_stock": 4,
+        "categoria": "Componentes",
+        "marca": "AMD",
+        "sku": "AMD987321"
+    },
+    {
+        "id": 30,
+        "nombre": "Router Netgear Nighthawk AX12",
+        "descripcion": "Router Wi-Fi 6 con doble banda y 12 streams",
+        "precio": 499.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Redes",
+        "marca": "Netgear",
+        "sku": "NET654987"
+    },
+    {
+        "id": 31,
+        "nombre": "Smartwatch Samsung Galaxy Watch 4",
+        "descripcion": "Reloj inteligente con monitor de sueño y ECG",
+        "precio": 299.99,
+        "cantidad_en_stock": 15,
+        "categoria": "Wearables",
+        "marca": "Samsung",
+        "sku": "SAM654321"
+    },
+    {
+        "id": 32,
+        "nombre": "Auriculares Bose QuietComfort 35 II",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido",
+        "precio": 299.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Audio",
+        "marca": "Bose",
+        "sku": "BOS321987"
+    },
+    {
+        "id": 33,
+        "nombre": "Altavoz Inteligente Google Nest Audio",
+        "descripcion": "Altavoz inteligente con asistente Google Assistant",
+        "precio": 99.99,
+        "cantidad_en_stock": 30,
+        "categoria": "Smart Home",
+        "marca": "Google",
+        "sku": "GOO987654"
+    },
+    {
+        "id": 34,
+        "nombre": "Cámara Sony Alpha 7 III",
+        "descripcion": "Cámara mirrorless full-frame con 24.2MP y grabación 4K",
+        "precio": 1999.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Cámaras",
+        "marca": "Sony",
+        "sku": "SON654321"
+    },
+    {
+        "id": 35,
+        "nombre": "Drone DJI Mini 2",
+        "descripcion": "Drone compacto con cámara 4K y 31 minutos de vuelo",
+        "precio": 449.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Drones",
+        "marca": "DJI",
+        "sku": "DJI987321"
+    },
+    {
+        "id": 36,
+        "nombre": "Consola Nintendo Switch",
+        "descripcion": "Consola híbrida para juegos en casa y portátil",
+        "precio": 299.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Consolas",
+        "marca": "Nintendo",
+        "sku": "NIN321654"
+    },
+    {
+        "id": 37,
+        "nombre": "Tarjeta de Memoria Kingston 256GB",
+        "descripcion": "Tarjeta de memoria microSDXC con adaptador",
+        "precio": 29.99,
+        "cantidad_en_stock": 80,
+        "categoria": "Almacenamiento",
+        "marca": "Kingston",
+        "sku": "KIN987321"
+    },
+    {
+        "id": 38,
+        "nombre": "Cargador Inalámbrico Samsung Wireless Charger",
+        "descripcion": "Cargador inalámbrico de 9W compatible con Qi",
+        "precio": 39.99,
+        "cantidad_en_stock": 25,
+        "categoria": "Accesorios",
+        "marca": "Samsung",
+        "sku": "SAM654987"
+    },
+    {
+        "id": 39,
+        "nombre": "Batería Externa RAVPower 26800mAh",
+        "descripcion": "Batería externa con puertos USB-C y USB-A",
+        "precio": 59.99,
+        "cantidad_en_stock": 30,
+        "categoria": "Accesorios",
+        "marca": "RAVPower",
+        "sku": "RAV321987"
+    },
+    {
+        "id": 40,
+        "nombre": "Laptop Lenovo ThinkPad X1 Carbon",
+        "descripcion": "Laptop ultraligera con pantalla 14 pulgadas, 16GB RAM, 512GB SSD",
+        "precio": 1499.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Laptops",
+        "marca": "Lenovo",
+        "sku": "LEN987654"
+    },
+    {
+        "id": 41,
+        "nombre": "Smartphone Google Pixel 6",
+        "descripcion": "Smartphone con cámara de 50MP y pantalla OLED de 6.4 pulgadas",
+        "precio": 699.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Smartphones",
+        "marca": "Google",
+        "sku": "GOO321654"
+    },
+    {
+        "id": 42,
+        "nombre": "Tablet Microsoft Surface Pro 7",
+        "descripcion": "Tablet con pantalla de 12.3 pulgadas, 128GB almacenamiento",
+        "precio": 899.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Tablets",
+        "marca": "Microsoft",
+        "sku": "MIC654321"
+    },
+    {
+        "id": 43,
+        "nombre": "Monitor Acer Predator X27",
+        "descripcion": "Monitor gaming 4K de 27 pulgadas con 144Hz",
+        "precio": 1999.99,
+        "cantidad_en_stock": 3,
+        "categoria": "Monitores",
+        "marca": "Acer",
+        "sku": "ACE987321"
+    },
+    {
+        "id": 44,
+        "nombre": "Teclado Logitech G Pro X",
+        "descripcion": "Teclado mecánico para gaming con switches intercambiables",
+        "precio": 149.99,
+        "cantidad_en_stock": 15,
+        "categoria": "Periféricos",
+        "marca": "Logitech",
+        "sku": "LOG321987"
+    },
+    {
+        "id": 45,
+        "nombre": "Mouse Razer DeathAdder V2",
+        "descripcion": "Mouse para gaming con sensor óptico de 20,000 DPI",
+        "precio": 69.99,
+        "cantidad_en_stock": 22,
+        "categoria": "Periféricos",
+        "marca": "Razer",
+        "sku": "RAZ987654"
+    },
+    {
+        "id": 46,
+        "nombre": "Impresora Canon PIXMA TS9120",
+        "descripcion": "Impresora multifuncional con sistema de tanque de tinta",
+        "precio": 149.99,
+        "cantidad_en_stock": 18,
+        "categoria": "Impresoras",
+        "marca": "Canon",
+        "sku": "CAN321654"
+    },
+    {
+        "id": 47,
+        "nombre": "Disco Duro Externo Toshiba Canvio Advance 4TB",
+        "descripcion": "Disco duro externo portátil de 4TB, USB 3.0",
+        "precio": 109.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Almacenamiento",
+        "marca": "Toshiba",
+        "sku": "TOS654987"
+    },
+    {
+        "id": 48,
+        "nombre": "Tarjeta Gráfica NVIDIA GeForce RTX 3090",
+        "descripcion": "Tarjeta gráfica para gaming con 24GB GDDR6X",
+        "precio": 1499.99,
+        "cantidad_en_stock": 2,
+        "categoria": "Componentes",
+        "marca": "NVIDIA",
+        "sku": "NVD321987"
+    },
+    {
+        "id": 49,
+        "nombre": "Router TP-Link Archer AX6000",
+        "descripcion": "Router Wi-Fi 6 con doble banda y 8 puertos LAN",
+        "precio": 299.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Redes",
+        "marca": "TP-Link",
+        "sku": "TPL987654"
+    },
+    {
+        "id": 50,
+        "nombre": "Smartwatch Fitbit Sense",
+        "descripcion": "Reloj inteligente con monitor de estrés y ECG",
+        "precio": 299.99,
+        "cantidad_en_stock": 14,
+        "categoria": "Wearables",
+        "marca": "Fitbit",
+        "sku": "FIT321654"
+    },
+    {
+        "id": 51,
+        "nombre": "Auriculares Jabra Elite 85h",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido",
+        "precio": 249.99,
+        "cantidad_en_stock": 18,
+        "categoria": "Audio",
+        "marca": "Jabra",
+        "sku": "JAB987321"
+    },
+    {
+        "id": 52,
+        "nombre": "Altavoz Inteligente Sonos One",
+        "descripcion": "Altavoz inteligente con asistente Alexa y Google Assistant",
+        "precio": 199.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Smart Home",
+        "marca": "Sonos",
+        "sku": "SON321987"
+    },
+    {
+        "id": 53,
+        "nombre": "Cámara Nikon Z6 II",
+        "descripcion": "Cámara mirrorless full-frame con 24.5MP y grabación 4K",
+        "precio": 1999.99,
+        "cantidad_en_stock": 4,
+        "categoria": "Cámaras",
+        "marca": "Nikon",
+        "sku": "NIK654321"
+    },
+    {
+        "id": 54,
+        "nombre": "Drone Autel Robotics EVO II",
+        "descripcion": "Drone con cámara 8K, 40 minutos de vuelo",
+        "precio": 1499.99,
+        "cantidad_en_stock": 3,
+        "categoria": "Drones",
+        "marca": "Autel Robotics",
+        "sku": "AUT987321"
+    },
+    {
+        "id": 55,
+        "nombre": "Consola PlayStation 4 Pro",
+        "descripcion": "Consola de videojuegos con 1TB de almacenamiento",
+        "precio": 399.99,
+        "cantidad_en_stock": 7,
+        "categoria": "Consolas",
+        "marca": "Sony",
+        "sku": "SON654987"
+    },
+    {
+        "id": 56,
+        "nombre": "Tarjeta de Memoria Lexar 512GB",
+        "descripcion": "Tarjeta de memoria microSDXC con adaptador",
+        "precio": 59.99,
+        "cantidad_en_stock": 50,
+        "categoria": "Almacenamiento",
+        "marca": "Lexar",
+        "sku": "LEX321987"
+    },
+    {
+        "id": 57,
+        "nombre": "Cargador Inalámbrico Anker PowerWave",
+        "descripcion": "Cargador inalámbrico de 10W compatible con Qi",
+        "precio": 29.99,
+        "cantidad_en_stock": 40,
+        "categoria": "Accesorios",
+        "marca": "Anker",
+        "sku": "ANK654321"
+    },
+    {
+        "id": 58,
+        "nombre": "Batería Externa Mophie Powerstation XXL",
+        "descripcion": "Batería externa con puertos USB-C y USB-A",
+        "precio": 99.99,
+        "cantidad_en_stock": 15,
+        "categoria": "Accesorios",
+        "marca": "Mophie",
+        "sku": "MOP987321"
+    },
+    {
+        "id": 59,
+        "nombre": "Laptop ASUS ROG Zephyrus G14",
+        "descripcion": "Laptop gaming con pantalla 14 pulgadas, 16GB RAM, 1TB SSD",
+        "precio": 1499.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Laptops",
+        "marca": "ASUS",
+        "sku": "ASU654321"
+    },
+    {
+        "id": 60,
+        "nombre": "Smartphone OnePlus 9 Pro",
+        "descripcion": "Smartphone con pantalla Fluid AMOLED de 6.7 pulgadas, 256GB almacenamiento",
+        "precio": 969.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Smartphones",
+        "marca": "OnePlus",
+        "sku": "ONE321987"
+    },
+    {
+        "id": 61,
+        "nombre": "Tablet Huawei MatePad Pro",
+        "descripcion": "Tablet con pantalla de 10.8 pulgadas, 128GB almacenamiento",
+        "precio": 549.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Tablets",
+        "marca": "Huawei",
+        "sku": "HUA987321"
+    },
+    {
+        "id": 62,
+        "nombre": "Monitor Samsung Odyssey G9",
+        "descripcion": "Monitor gaming ultrawide de 49 pulgadas con 240Hz",
+        "precio": 1499.99,
+        "cantidad_en_stock": 2,
+        "categoria": "Monitores",
+        "marca": "Samsung",
+        "sku": "SAM321987"
+    },
+    {
+        "id": 63,
+        "nombre": "Teclado Ducky One 2 Mini",
+        "descripcion": "Teclado mecánico compacto para gaming con RGB",
+        "precio": 99.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Periféricos",
+        "marca": "Ducky",
+        "sku": "DUC654321"
+    },
+    {
+        "id": 64,
+        "nombre": "Mouse Logitech MX Master 3",
+        "descripcion": "Mouse ergonómico con sensor Darkfield",
+        "precio": 99.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Periféricos",
+        "marca": "Logitech",
+        "sku": "LOG987321"
+    },
+    {
+        "id": 65,
+        "nombre": "Impresora Brother HL-L2350DW",
+        "descripcion": "Impresora láser monocromática con Wi-Fi",
+        "precio": 149.99,
+        "cantidad_en_stock": 15,
+        "categoria": "Impresoras",
+        "marca": "Brother",
+        "sku": "BRO321654"
+    },
+    {
+        "id": 66,
+        "nombre": "Disco Duro Externo LaCie Rugged 5TB",
+        "descripcion": "Disco duro externo resistente a golpes y agua",
+        "precio": 149.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Almacenamiento",
+        "marca": "LaCie",
+        "sku": "LAC987321"
+    },
+    {
+        "id": 67,
+        "nombre": "Tarjeta Gráfica AMD Radeon RX 6900 XT",
+        "descripcion": "Tarjeta gráfica para gaming con 16GB GDDR6",
+        "precio": 999.99,
+        "cantidad_en_stock": 3,
+        "categoria": "Componentes",
+        "marca": "AMD",
+        "sku": "AMD654321"
+    },
+    {
+        "id": 68,
+        "nombre": "Router Linksys Velop MX10",
+        "descripcion": "Router Wi-Fi 6 con sistema mesh tri-band",
+        "precio": 499.99,
+        "cantidad_en_stock": 4,
+        "categoria": "Redes",
+        "marca": "Linksys",
+        "sku": "LIN321987"
+    },
+    {
+        "id": 69,
+        "nombre": "Smartwatch Garmin Venu 2",
+        "descripcion": "Reloj inteligente con monitor de salud avanzado",
+        "precio": 399.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Wearables",
+        "marca": "Garmin",
+        "sku": "GAR987321"
+    },
+    {
+        "id": 70,
+        "nombre": "Auriculares Sennheiser Momentum 3",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido",
+        "precio": 399.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Audio",
+        "marca": "Sennheiser",
+        "sku": "SEN321987"
+    },
+    {
+        "id": 71,
+        "nombre": "Altavoz Inteligente Bose Home Speaker 500",
+        "descripcion": "Altavoz inteligente con asistente Alexa y Google Assistant",
+        "precio": 399.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Smart Home",
+        "marca": "Bose",
+        "sku": "BOS654321"
+    },
+    {
+        "id": 72,
+        "nombre": "Cámara Fujifilm X-T4",
+        "descripcion": "Cámara mirrorless con sensor APS-C de 26.1MP y grabación 4K",
+        "precio": 1699.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Cámaras",
+        "marca": "Fujifilm",
+        "sku": "FUJ987321"
+    },
+    {
+        "id": 73,
+        "nombre": "Drone Parrot Anafi USA",
+        "descripcion": "Drone con cámara 4K HDR, 32 minutos de vuelo",
+        "precio": 6999.99,
+        "cantidad_en_stock": 1,
+        "categoria": "Drones",
+        "marca": "Parrot",
+        "sku": "PAR321987"
+    },
+    {
+        "id": 74,
+        "nombre": "Consola Xbox One X",
+        "descripcion": "Consola de videojuegos con 1TB de almacenamiento",
+        "precio": 499.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Consolas",
+        "marca": "Microsoft",
+        "sku": "MIC654987"
+    },
+    {
+        "id": 75,
+        "nombre": "Tarjeta de Memoria PNY 1TB",
+        "descripcion": "Tarjeta de memoria microSDXC con adaptador",
+        "precio": 199.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Almacenamiento",
+        "marca": "PNY",
+        "sku": "PNY321987"
+    },
+    {
+        "id": 76,
+        "nombre": "Cargador Inalámbrico Belkin Boost Charge",
+        "descripcion": "Cargador inalámbrico de 10W compatible con Qi",
+        "precio": 39.99,
+        "cantidad_en_stock": 30,
+        "categoria": "Accesorios",
+        "marca": "Belkin",
+        "sku": "BEL654321"
+    },
+    {
+        "id": 77,
+        "nombre": "Batería Externa Zendure SuperTank",
+        "descripcion": "Batería externa con puertos USB-C y USB-A",
+        "precio": 199.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Accesorios",
+        "marca": "Zendure",
+        "sku": "ZEN987321"
+    },
+    {
+        "id": 78,
+        "nombre": "Laptop Acer Swift 3",
+        "descripcion": "Laptop ultraligera con pantalla 14 pulgadas, 8GB RAM, 512GB SSD",
+        "precio": 799.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Laptops",
+        "marca": "Acer",
+        "sku": "ACE321987"
+    },
+    {
+        "id": 79,
+        "nombre": "Smartphone Xiaomi Mi 11",
+        "descripcion": "Smartphone con pantalla AMOLED de 6.81 pulgadas, 128GB almacenamiento",
+        "precio": 749.99,
+        "cantidad_en_stock": 9,
+        "categoria": "Smartphones",
+        "marca": "Xiaomi",
+        "sku": "XIA654321"
+    },
+    {
+        "id": 80,
+        "nombre": "Tablet Lenovo Tab P11 Pro",
+        "descripcion": "Tablet con pantalla OLED de 11.5 pulgadas, 128GB almacenamiento",
+        "precio": 499.99,
+        "cantidad_en_stock": 7,
+        "categoria": "Tablets",
+        "marca": "Lenovo",
+        "sku": "LEN321987"
+    },
+    {
+        "id": 81,
+        "nombre": "Monitor LG UltraFine 32UL950",
+        "descripcion": "Monitor 4K UHD de 32 pulgadas con tecnología Nano IPS",
+        "precio": 1499.99,
+        "cantidad_en_stock": 4,
+        "categoria": "Monitores",
+        "marca": "LG",
+        "sku": "LG987321"
+    },
+    {
+        "id": 82,
+        "nombre": "Teclado Keychron K6",
+        "descripcion": "Teclado mecánico compacto con conexión Bluetooth",
+        "precio": 79.99,
+        "cantidad_en_stock": 18,
+        "categoria": "Periféricos",
+        "marca": "Keychron",
+        "sku": "KEY321987"
+    },
+    {
+        "id": 83,
+        "nombre": "Mouse Corsair Dark Core RGB Pro",
+        "descripcion": "Mouse para gaming inalámbrico con RGB",
+        "precio": 89.99,
+        "cantidad_en_stock": 15,
+        "categoria": "Periféricos",
+        "marca": "Corsair",
+        "sku": "COR654321"
+    },
+    {
+        "id": 84,
+        "nombre": "Impresora Epson WorkForce Pro WF-4740",
+        "descripcion": "Impresora multifuncional con sistema de tanque de tinta",
+        "precio": 299.99,
+        "cantidad_en_stock": 10,
+        "categoria": "Impresoras",
+        "marca": "Epson",
+        "sku": "EPS321987"
+    },
+    {
+        "id": 85,
+        "nombre": "Disco Duro Externo SanDisk Extreme Pro 2TB",
+        "descripcion": "Disco duro externo portátil de 2TB, USB 3.2",
+        "precio": 129.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Almacenamiento",
+        "marca": "SanDisk",
+        "sku": "SAN654321"
+    },
+    {
+        "id": 86,
+        "nombre": "Tarjeta Gráfica NVIDIA GeForce RTX 3070",
+        "descripcion": "Tarjeta gráfica para gaming con 8GB GDDR6",
+        "precio": 499.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Componentes",
+        "marca": "NVIDIA",
+        "sku": "NVD987321"
+    },
+    {
+        "id": 87,
+        "nombre": "Router Google Nest Wifi",
+        "descripcion": "Router Wi-Fi con sistema mesh y asistente Google Assistant",
+        "precio": 199.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Redes",
+        "marca": "Google",
+        "sku": "GOO321987"
+    },
+    {
+        "id": 88,
+        "nombre": "Smartwatch Withings ScanWatch",
+        "descripcion": "Reloj inteligente con monitor de oxígeno en sangre y ECG",
+        "precio": 299.99,
+        "cantidad_en_stock": 9,
+        "categoria": "Wearables",
+        "marca": "Withings",
+        "sku": "WIT654321"
+    },
+    {
+        "id": 89,
+        "nombre": "Auriculares Audio-Technica ATH-M50xBT",
+        "descripcion": "Auriculares inalámbricos con sonido de alta fidelidad",
+        "precio": 199.99,
+        "cantidad_en_stock": 14,
+        "categoria": "Audio",
+        "marca": "Audio-Technica",
+        "sku": "AUD321987"
+    },
+    {
+        "id": 90,
+        "nombre": "Altavoz Inteligente Harman Kardon Citation 300",
+        "descripcion": "Altavoz inteligente con asistente Google Assistant",
+        "precio": 349.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Smart Home",
+        "marca": "Harman Kardon",
+        "sku": "HAR987321"
+    },
+    {
+        "id": 91,
+        "nombre": "Cámara Panasonic Lumix GH5",
+        "descripcion": "Cámara mirrorless con sensor Micro Four Thirds de 20.3MP y grabación 4K",
+        "precio": 1499.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Cámaras",
+        "marca": "Panasonic",
+        "sku": "PAN321987"
+    },
+    {
+        "id": 92,
+        "nombre": "Drone Yuneec Typhoon H Pro",
+        "descripcion": "Drone con cámara 4K, 25 minutos de vuelo",
+        "precio": 1299.99,
+        "cantidad_en_stock": 2,
+        "categoria": "Drones",
+        "marca": "Yuneec",
+        "sku": "YUN654321"
+    },
+    {
+        "id": 93,
+        "nombre": "Consola Nintendo Switch Lite",
+        "descripcion": "Consola portátil para juegos",
+        "precio": 199.99,
+        "cantidad_en_stock": 12,
+        "categoria": "Consolas",
+        "marca": "Nintendo",
+        "sku": "NIN987321"
+    },
+    {
+        "id": 94,
+        "nombre": "Tarjeta de Memoria Transcend 128GB",
+        "descripcion": "Tarjeta de memoria microSDXC con adaptador",
+        "precio": 19.99,
+        "cantidad_en_stock": 60,
+        "categoria": "Almacenamiento",
+        "marca": "Transcend",
+        "sku": "TRA321987"
+    },
+    {
+        "id": 95,
+        "nombre": "Cargador Inalámbrico Mophie Wireless Charging Pad",
+        "descripcion": "Cargador inalámbrico de 7.5W compatible con Qi",
+        "precio": 39.99,
+        "cantidad_en_stock": 25,
+        "categoria": "Accesorios",
+        "marca": "Mophie",
+        "sku": "MOP654321"
+    },
+    {
+        "id": 96,
+        "nombre": "Batería Externa Anker PowerCore 26800mAh",
+        "descripcion": "Batería externa con puertos USB-C y USB-A",
+        "precio": 79.99,
+        "cantidad_en_stock": 20,
+        "categoria": "Accesorios",
+        "marca": "Anker",
+        "sku": "ANK987321"
+    },
+    {
+        "id": 97,
+        "nombre": "Laptop Microsoft Surface Laptop 4",
+        "descripcion": "Laptop con pantalla de 13.5 pulgadas, 8GB RAM, 256GB SSD",
+        "precio": 999.99,
+        "cantidad_en_stock": 8,
+        "categoria": "Laptops",
+        "marca": "Microsoft",
+        "sku": "MIC321987"
+    },
+    {
+        "id": 98,
+        "nombre": "Smartphone Sony Xperia 1 III",
+        "descripcion": "Smartphone con pantalla 4K OLED de 6.5 pulgadas, 256GB almacenamiento",
+        "precio": 1299.99,
+        "cantidad_en_stock": 5,
+        "categoria": "Smartphones",
+        "marca": "Sony",
+        "sku": "SON654987"
+    },
+    {
+        "id": 99,
+        "nombre": "Tablet Amazon Fire HD 10",
+        "descripcion": "Tablet con pantalla de 10.1 pulgadas, 32GB almacenamiento",
+        "precio": 149.99,
+        "cantidad_en_stock": 25,
+        "categoria": "Tablets",
+        "marca": "Amazon",
+        "sku": "AMA321987"
+    },
+    {
+        "id": 100,
+        "nombre": "Monitor BenQ PD3220U",
+        "descripcion": "Monitor 4K UHD de 32 pulgadas con tecnología HDR10",
+        "precio": 999.99,
+        "cantidad_en_stock": 6,
+        "categoria": "Monitores",
+        "marca": "BenQ",
+        "sku": "BEN654321"
+    }
+]
