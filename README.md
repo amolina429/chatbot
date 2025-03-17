@@ -107,23 +107,22 @@ Para más detalles del backend, consulta la [documentación completa del backend
 ---
 
 ## Estructura del Proyecto
-mi_proyecto/
-├── backend/ # Backend en Django
-│ ├── docs/ # Documentación del backend
-│ │ ├── index.md
-│ │ ├── installation.md
-│ │ ├── usage.md
-│ │ └── api.md
-│ ├── manage.py
-│ ├── requirements.txt
-│ └── ...
-├── frontend/ # Frontend en React
-│ ├── docs/ # Documentación del frontend
-│ │ ├── installation.md
-│ │ └── usage.md
-│ ├── package.json
-│ ├── public/
-│ ├── src/
-│ └── ...
-├── README.md # Documentación básica del proyecto
-└── .gitignore # Archivos ignorados por Git
+chatbot/
+  |- backend/ # Backend en Django
+     |- docs/ # Documentación del backend
+       |- index.md
+       |- installation.md
+       |- usage.md
+       |- api.md
+     - manage.py
+     - requirements.txt
+  |- frontend/ # Frontend en React
+     |- docs/ # Documentación del frontend
+       - installation.md
+       - usage.md
+     |- package.json
+     |- public/
+     |- src/
+
+  |- README.md # Documentación básica del proyecto
+  |- .gitignore # Archivos ignorados por Git
