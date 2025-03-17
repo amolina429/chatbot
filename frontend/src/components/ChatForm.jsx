@@ -1,7 +1,7 @@
 import { FaArrowUp } from "react-icons/fa";
 import React, { useRef } from 'react'
 
-const ChatForm = ({ ChatHistory, setChatHistory, generateBotResponse }) => {
+const ChatForm = ({ chatHistory, setChatHistory, generateBotResponse }) => {
     const inputRef = useRef();
 
     const handleFormSubmit = (e) => {
@@ -18,11 +18,9 @@ const ChatForm = ({ ChatHistory, setChatHistory, generateBotResponse }) => {
             setChatHistory((history) => [...history, { role: "model", text: "Procesando..." }]);
 
             //Llamamos a la función para generar la respuesta del bot
-            generateBotResponse(...[ChatHistory, { role: "user", text: userMessage }]);
+            generateBotResponse([...chatHistory, { role: "user", text: userMessage }], userMessage);
         }, 600);
-
     }
-
 
     return (
         <form action="#" className="chat-form" onSubmit={handleFormSubmit}>

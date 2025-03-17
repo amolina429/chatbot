@@ -8,10 +8,42 @@ import ChatMessage from "./components/ChatMessage";
 const App = () => {
   const [chatHistory, setChatHistory] = useState([]);
 
-  const generateBotResponse = (history) => {
+  const generateBotResponse = async (history, userMessage) => {
     console.log(history);
-  }
+    console.log(userMessage);
 
+    //Formateamos el historial del chat para la solicitud de la API.
+    history = history.map(({ role, text }) => ({ role, parts: [{ text }] }));
+
+    const requestOptions = {
+      method: "POST",
+      headers: { 
+        "Content-Type": "application/json",
+        "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTY2MTQ0LCJpYXQiOjE3NDIxNjQzNDQsImp0aSI6ImM0ZDE3NjdjNTAyZjQzYjhiYTliYmIxNTQyMmY5NjdhIiwidXNlcl9pZCI6MX0.ll70hm-jtr11nuWQaC0_mWkmjFBPPOHbqQQ_25EpvVU`
+      },
+      body: JSON.stringify({
+        message: userMessage
+      })
+    }
+
+    try {
+      //Realizamos la llamada a la API para obtener la respuesta del bot.
+      const response = await fetch("http://127.0.0.1:8000/api/chat/", requestOptions);
+      
+      const data = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(data.message || `Error ${response.status}`);
+      }
+      
+      console.log("Respuesta del servidor:", data);
+      return data;
+
+    } catch (error) {
+      console.error("Error en la petición:", error.message);
+      throw error;
+    }
+  }
 
   return (
     <div className="container">

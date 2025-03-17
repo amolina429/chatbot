@@ -11,6 +11,7 @@ genai.configure(api_key=config('API_KEY'))
 
 class ChatbotLogic():
     def chatbot(self,data):
+        print(data)
         user_question = data['message']
         user = data['user']
         #consultamos el inventario en nuestra base de datos, o consumimos un api del cliente o leemos archivos json, excels, u otra consulta.
@@ -50,5 +51,5 @@ class ChatbotLogic():
             role='model',
             content=response.text
         )
-        
+        print(response.text)
         return {'message': response.text} 
