@@ -8,12 +8,8 @@ import ChatMessage from "./components/ChatMessage";
 const App = () => {
   const [chatHistory, setChatHistory] = useState([]);
 
-  const generateBotResponse = async (history, userMessage) => {
-    console.log(history);
-    console.log(userMessage);
-
-    //Formateamos el historial del chat para la solicitud de la API.
-    history = history.map(({ role, text }) => ({ role, parts: [{ text }] }));
+  const generateBotResponse = async (_, userMessage) => {
+    console.log("Mensaje del usuario:", userMessage);
 
     const requestOptions = {
       method: "POST",
@@ -27,9 +23,7 @@ const App = () => {
     }
 
     try {
-      //Realizamos la llamada a la API para obtener la respuesta del bot.
       const response = await fetch("http://127.0.0.1:8000/api/chat/", requestOptions);
-      
       const data = await response.json();
       
       if (!response.ok) {
