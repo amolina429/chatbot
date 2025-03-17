@@ -13,7 +13,7 @@ function Login() {
     setError('');
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL_LOGIN}/token/`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL_LOGIN}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
