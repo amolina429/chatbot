@@ -15,7 +15,7 @@ const App = () => {
       method: "POST",
       headers: { 
         "Content-Type": "application/json",
-        "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTY2MTQ0LCJpYXQiOjE3NDIxNjQzNDQsImp0aSI6ImM0ZDE3NjdjNTAyZjQzYjhiYTliYmIxNTQyMmY5NjdhIiwidXNlcl9pZCI6MX0.ll70hm-jtr11nuWQaC0_mWkmjFBPPOHbqQQ_25EpvVU`
+        "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTc5MjcxLCJpYXQiOjE3NDIxNzc0NzEsImp0aSI6Ijk1YjViYzg3ZjU0YjQ4NDU4Njc4Yjk0YTcwYmUxNjhmIiwidXNlcl9pZCI6MX0.V3NK9slPosZdQ2B4AmCCttAWLixlCeMFoRrmZ9OaOK4`
       },
       body: JSON.stringify({
         message: userMessage
