@@ -19,7 +19,7 @@ const Dashboard = () => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTg5MTM5LCJpYXQiOjE3NDIxODczMzksImp0aSI6ImQ3YWMwYmMwNDIxYTQxYTViNDE4YjAwY2NmMDhmNWU1IiwidXNlcl9pZCI6MX0.sBBVY0a22IwB6zTWk7bg0IZxtMoWvBEjXcbWl8GDPqc`
+                "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjIwODczLCJpYXQiOjE3NDIyMTkwNzMsImp0aSI6ImYzMDI0ODA4ZWQyMDRiODk4NTZlZjIxNGQ5Yzk3NTcxIiwidXNlcl9pZCI6MX0.HmeVQ8LalV6voGnqEw5Ckhx_nH0ivqVORqRqYAI3B1Y`
             },
             body: JSON.stringify({
                 message: userMessage

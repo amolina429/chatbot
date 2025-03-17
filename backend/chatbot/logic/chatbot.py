@@ -16,6 +16,7 @@ class ChatbotLogic():
         #consultamos el inventario en nuestra base de datos, o consumimos un api del cliente o leemos archivos json, excels, u otra consulta.
         inventario = Inventario.objects.values().all()
         inventario = list(inventario)
+        print (inventario)
         history = []
         #creamos un propmt inicial para que tome el rol de chatbot
         prompt = f"""
