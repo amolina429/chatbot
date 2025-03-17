@@ -14,18 +14,19 @@ const Dashboard = () => {
             //Función de ayuda para actualizar el historial de chat
             setChatHistory(prev => [...prev.filter(msg => msg.text !== "Procesando..."), { role: "model", text }])
         }
+        const token = localStorage.getItem('token');
 
         const requestOptions = {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjIwODczLCJpYXQiOjE3NDIyMTkwNzMsImp0aSI6ImYzMDI0ODA4ZWQyMDRiODk4NTZlZjIxNGQ5Yzk3NTcxIiwidXNlcl9pZCI6MX0.HmeVQ8LalV6voGnqEw5Ckhx_nH0ivqVORqRqYAI3B1Y`
+                "Authorization": `Bearer ${token}`
             },
             body: JSON.stringify({
                 message: userMessage
             })
         }
-
+        
         try {
             const response = await fetch(import.meta.env.VITE_API_URL, requestOptions);
             const data = await response.json();
