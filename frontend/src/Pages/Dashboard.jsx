@@ -14,12 +14,13 @@ const Dashboard = () => {
             //Función de ayuda para actualizar el historial de chat
             setChatHistory(prev => [...prev.filter(msg => msg.text !== "Procesando..."), { role: "model", text }])
         }
+        const token = localStorage.getItem('token');
 
         const requestOptions = {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTkxNDQzLCJpYXQiOjE3NDIxODc4NDMsImp0aSI6IjEwMDU0MWM5MzZiNDQzNDZiNTkyN2E1ZWUyNDljM2Y0IiwidXNlcl9pZCI6MX0.YUJTK3oBZHjp0JiBMsECXnZYopuhzob7yN-QAXCL-2k`
+                "Authorization": `Bearer ${token}`
             },
             body: JSON.stringify({
                 message: userMessage
