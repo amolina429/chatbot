@@ -1,4 +1,4 @@
-# Chatbot con Django y Gemini
+# Chatbot con Django y React
 
 Este proyecto es un chatbot desarrollado con Django y un modelo de Gemini para responder preguntas específicas sobre inventario. La API está protegida con autenticación JWT y permite a los usuarios interactuar con el chatbot mediante solicitudes HTTP.
 
