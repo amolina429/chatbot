@@ -16,7 +16,7 @@ Asegúrate de tener instalado Node.js y npm (o yarn) en tu sistema.
 
     ```bash
     git clone [https://github.com/amolina429/chatbot.git](https://github.com/amolina429/chatbot.git)
-    cd [nombre del repositorio]
+    cd [chatbot]
     ```
 
 2.  Instala las dependencias:
