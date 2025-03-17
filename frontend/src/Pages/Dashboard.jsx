@@ -19,13 +19,13 @@ const Dashboard = () => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTg5MTM5LCJpYXQiOjE3NDIxODczMzksImp0aSI6ImQ3YWMwYmMwNDIxYTQxYTViNDE4YjAwY2NmMDhmNWU1IiwidXNlcl9pZCI6MX0.sBBVY0a22IwB6zTWk7bg0IZxtMoWvBEjXcbWl8GDPqc`
+                "Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMTkxNDQzLCJpYXQiOjE3NDIxODc4NDMsImp0aSI6IjEwMDU0MWM5MzZiNDQzNDZiNTkyN2E1ZWUyNDljM2Y0IiwidXNlcl9pZCI6MX0.YUJTK3oBZHjp0JiBMsECXnZYopuhzob7yN-QAXCL-2k`
             },
             body: JSON.stringify({
                 message: userMessage
             })
         }
-
+        
         try {
             const response = await fetch(import.meta.env.VITE_API_URL, requestOptions);
             const data = await response.json();
